@@ -1,0 +1,56 @@
+
+    .fashion1 ul li {
+        float: left;
+        position: relative;
+        padding: 5px 14px;
+    }
+    .fashion1 ul li ul  {
+        display: none;
+        padding: 10px;
+        display: block;
+        position: absolute;
+        background-color: white;
+        border-top: solid 3px #14c0c9;
+        border-radius: 1px;
+    }
+    .fashion1 ul li ul li {
+        display: none;
+        width: 180px;
+    }
+    .fashion1 ul li ul li a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .fashion1 ul li ul li a:hover {
+        background-color: #f3f3f3;
+    }
+    /* @media (min-width: 768px) {
+    
+    .fashion1 li {
+        display: inline;
+        text-align: left;
+    }
+
+    .fashion2 {
+        text-align: right;
+    }
+
+} */
+/* @media (min-width: 1200px) {
+    .fashion1 li {
+        display: inline;
+        width: auto;
+        text-align: left;
+    }
+    .fashion1 a {
+        text-decoration: none;
+        color: #4b4d45;
+    }
+    .fashion1 a:hover {
+        color: #14c0c9;
+        text-decoration: none;
+    }
+    .fashion2 {
+        text-align: right;
+    }
+} */
